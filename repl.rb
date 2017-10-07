@@ -21,8 +21,17 @@ begin
 				puts "You have no tasks! Go outside."
 			end
 		when 'I'
-			
+			# change this later with Task class
+			t = {}
+			puts "what is the task name? "
+			t["name"] = gets.strip
+			puts "what is the task percentage?"
+			t["percentage"] = gets.strip.to_i
+			puts "what is the task due-date? (yyyy-mm-dd)"
+			t["due-date"] = gets.strip
+			pq.insert t
 		when 'R'
+			done = pq.remove
 		when 'Q'
 			pq.quit
 		else

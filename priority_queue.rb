@@ -11,8 +11,9 @@ class PriorityQueue
 		sort
 	end
 
-	def insert
-		@data.push{}
+	def insert task
+		@data.push task
+		sort
 	end
 
 	def remove
@@ -28,6 +29,15 @@ class PriorityQueue
 
 		# customizable
 		def sort_helper task
-			return Date.parse(task["due-date"])
+			# assign weights to input variables
+			days_left_weight = 1
+			percent_worth_weight = 1
+
+			# get input variables mupltipled by weights
+			days_left = days_left_weight * ((Date.parse(task["due-date"]) - Date.today).to_i + 1)
+			percent_worth = percent_worth_weight* (100 - task["percentage"].to_i)
+
+			# function to get output
+			return days_left * percent_worth
 		end
 end
