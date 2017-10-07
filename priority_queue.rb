@@ -12,13 +12,10 @@ class PriorityQueue
 	end
 
 	def insert
-		
+		@data.push{}
 	end
 
 	def remove
-	end
-
-	def list
 	end
 
 	def quit
