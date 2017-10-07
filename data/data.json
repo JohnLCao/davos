@@ -1,10 +1,27 @@
 [
 	{
-		"name" : "test1",
-		"due-date" : "2017-10-11"
+		"name" 			: "test-task-1",
+		"percentage"	: 10,
+		"due-date" 		: "2017-10-12"
 	},
 	{
-		"name": "test2",
-		"due-date": "2017-10-12"
+		"name"			: "test-task-2",
+		"percentage"  	: 15,
+		"due-date"		: "2017-10-12"
+	},
+	{
+		"name"			: "test-task-2",
+		"percentage"  	: 5,
+		"due-date"		: "2017-11-09"
+	},
+	{
+		"name"			: "test-task-2",
+		"percentage"  	: 55,
+		"due-date"		: "2017-10-05"
+	},
+	{
+		"name"			: "test-task-2",
+		"percentage"  	: 10,
+		"due-date"		: "2018-9-30"
 	}
 ]
