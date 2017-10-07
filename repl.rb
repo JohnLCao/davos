@@ -32,6 +32,7 @@ begin
 			pq.insert t
 		when 'R'
 			done = pq.remove
+			puts "You finished #{done["name"]}, good job!"
 		when 'Q'
 			pq.quit
 		else

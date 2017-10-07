@@ -17,9 +17,11 @@ class PriorityQueue
 	end
 
 	def remove
+		return @data.shift
 	end
 
 	def quit
+		File.write(@@file_path, JSON.pretty_generate(@data))
 	end
 
 	private

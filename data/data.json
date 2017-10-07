@@ -1,27 +1,32 @@
 [
-	{
-		"name" 			: "test-task-1",
-		"percentage"	: 10,
-		"due-date" 		: "2017-10-12"
-	},
-	{
-		"name"			: "test-task-2",
-		"percentage"  	: 15,
-		"due-date"		: "2017-10-12"
-	},
-	{
-		"name"			: "test-task-3",
-		"percentage"  	: 5,
-		"due-date"		: "2017-11-09"
-	},
-	{
-		"name"			: "test-task-4",
-		"percentage"  	: 55,
-		"due-date"		: "2017-10-05"
-	},
-	{
-		"name"			: "test-task-5",
-		"percentage"  	: 10,
-		"due-date"		: "2018-9-30"
-	}
+  {
+    "name": "test-task-7",
+    "percentage": 70,
+    "due-date": "2017-10-13"
+  },
+  {
+    "name": "test-task-2",
+    "percentage": 15,
+    "due-date": "2017-10-12"
+  },
+  {
+    "name": "test-task-1",
+    "percentage": 10,
+    "due-date": "2017-10-12"
+  },
+  {
+    "name": "test-task-6",
+    "percentage": 32,
+    "due-date": "2017-10-15"
+  },
+  {
+    "name": "test-task-3",
+    "percentage": 5,
+    "due-date": "2017-11-09"
+  },
+  {
+    "name": "test-task-5",
+    "percentage": 10,
+    "due-date": "2018-9-30"
+  }
 ]
