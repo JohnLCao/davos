@@ -10,3 +10,11 @@ bales of hay.
 
 So I decided to make a simple repl tool that ideally will report to me exactly what I shold be doing next, based on some custom definition
 of priority. 
+
+# To Use
+
+1. If not already installed, install ruby https://www.ruby-lang.org/en/documentation/installation/ and add to your path environment variable (windows).
+
+2. Clone this repo
+
+3. cd in to cloned repo, type in "ruby repl.rb" to get started
