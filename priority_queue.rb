@@ -16,6 +16,10 @@ class PriorityQueue
 		sort
 	end
 
+	def next 
+		return @data.first
+	end
+
 	def remove
 		return @data.shift
 	end

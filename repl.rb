@@ -5,7 +5,7 @@ pq = PriorityQueue.new
 
 # main loop
 begin
-	puts "L(ist), I(nsert), R(emove), Q(uit)"
+	puts "L(ist), I(nsert), R(emove), N(ext up), Q(uit)"
 	flag = gets.strip
 	case flag.upcase
 		when 'L'
@@ -33,6 +33,8 @@ begin
 		when 'R'
 			done = pq.remove
 			puts "You finished #{done["name"]}, good job!"
+		when 'N'
+			puts "You should do #{pq.next["name"]} next."
 		when 'Q'
 			pq.quit
 		else

@@ -1,10 +1,5 @@
 [
   {
-    "name": "test-task-7",
-    "percentage": 70,
-    "due-date": "2017-10-13"
-  },
-  {
     "name": "test-task-2",
     "percentage": 15,
     "due-date": "2017-10-12"
