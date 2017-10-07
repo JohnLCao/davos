@@ -5,7 +5,7 @@ pq = PriorityQueue.new
 
 # main loop
 begin
-	puts "L(ist), I(nsert), R(emove), N(ext up), Q(uit)"
+	puts "L(ist),  I(nsert),  R(emove),  N(ext up),  Q(uit)".colorize(color: :blue, background: :white)
 	flag = gets.strip
 	case flag.upcase
 		when 'L'
@@ -13,7 +13,7 @@ begin
 			unless pq.data.empty?
 				pq.data.each do |task|
 					task.each do |key,value|
-						print "#{key}: #{value}; "
+						print "#{key}".cyan + ": #{value}; "
 					end
 					puts
 				end
