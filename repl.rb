@@ -1,5 +1,7 @@
 require './priority_queue.rb'
 
+pq = PriorityQueue.new
+
 begin
 	puts "Y/N"
 	flag = gets.strip
