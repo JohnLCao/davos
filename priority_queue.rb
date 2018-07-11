@@ -36,12 +36,13 @@ class PriorityQueue
 		# customizable
 		def sort_helper task
 			# assign weights to input variables
-			days_left_weight = 1
+			days_left_weight = 5
 			percent_worth_weight = 1
 
 			# get input variables mupltipled by weights
-			days_left = days_left_weight * ((Date.parse(task["due-date"]) - Date.today).to_i + 1)
-			percent_worth = percent_worth_weight* (100 - task["percentage"].to_i)
+			days_left = (days_left_weight**-1) * ((Date.parse(task["due-date"]) - Date.today).to_i + 1)
+			percent_worth = task["percentage"].to_i == 0 ? Float::INFINITY : 
+							(percent_worth_weight**-1) * (100 - task["percentage"].to_i)
 
 			# function to get output
 			return days_left * percent_worth

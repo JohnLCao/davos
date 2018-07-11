@@ -32,13 +32,14 @@ begin
 			pq.insert t
 		when 'R'
 			done = pq.remove
-			puts "You finished #{done["name"]}, good job!"
+			puts "You finished " + "#{done["name"]}".green + ", good job!"
 		when 'N'
-			puts "You should do #{pq.next["name"]} next."
+			puts "You should do " + "#{pq.next["name"]}".green + " next."
 		when 'Q'
 			pq.quit
 		else
 			puts "Ah...sorry, can't help you with that."
+			pq.quit
 			exit
 		end				
 end until flag.upcase == 'Q'

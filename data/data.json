@@ -1,27 +1,37 @@
 [
   {
-    "name": "test-task-2",
+    "name": "cmpt 433 Kernel Driver guide",
+    "percentage": 3,
+    "due-date": "2018-07-13"
+  },
+  {
+    "name": "cmpt 433 assignment 4",
+    "percentage": 10,
+    "due-date": "2018-07-17"
+  },
+  {
+    "name": "cmpt 383 assignment 2",
     "percentage": 15,
-    "due-date": "2017-10-12"
+    "due-date": "2018-07-20"
   },
   {
-    "name": "test-task-1",
+    "name": "cmpt 383 exercise 8",
+    "percentage": 1,
+    "due-date": "2018-07-20"
+  },
+  {
+    "name": "cmpt 433 project demo",
+    "percentage": 15,
+    "due-date": "2018-08-01"
+  },
+  {
+    "name": "Intel New Hire checklist",
     "percentage": 10,
-    "due-date": "2017-10-12"
+    "due-date": "2018-07-31"
   },
   {
-    "name": "test-task-6",
-    "percentage": 32,
-    "due-date": "2017-10-15"
-  },
-  {
-    "name": "test-task-3",
-    "percentage": 5,
-    "due-date": "2017-11-09"
-  },
-  {
-    "name": "test-task-5",
+    "name": "workout co-op course",
     "percentage": 10,
-    "due-date": "2018-9-30"
+    "due-date": "2018-08-01"
   }
 ]
