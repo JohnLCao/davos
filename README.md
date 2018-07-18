@@ -1,5 +1,5 @@
 # davos
-quick and dirty ruby REPL to help me organize my stuff.
+A ruby application to help organize my calendar when I am busy
 
 # Story
 
